@@ -1,0 +1,104 @@
+ @import '../Nav.scss';
+@import '../Home/Home.scss';
+@import '../About/About.scss';
+.container {
+    overflow: hidden;
+    .h1Ser{
+        @include headerStyle();
+    }
+    .h1Ser::first-letter{
+        color: $Color1;
+        font-size: 55px;
+        letter-spacing: 1.5px;
+    }
+    .ps{
+        width: 60%;
+        text-align: center;
+        color: #888;
+        margin: auto;
+    }
+    .services{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 50px;
+        padding-top: 45px;
+        animation: appear3 1.5s;
+        animation-delay: 0s;
+        .servCh{
+            padding: 35px;
+            text-align: center !important;
+            box-shadow: 0px 0px 30px #eee;
+            .icSer{
+                color: $Color3;
+                margin: 20px auto ;
+                font-size: 50px;
+                width: 100%;   
+                transition: 0.5s;
+            }
+            h3{
+                width: 100%;
+                transition: 0.5s;
+            }
+            p{
+                text-wrap-style: balance;
+                white-space: break-spaces;
+                margin: auto;
+                color: #888;
+                font-size: 14px;
+            }
+        }
+        .servCh:hover .icSer{
+            color: $Color0;
+            transition: 1.5s;
+            scale: 1.2;
+            rotate: 360deg;
+        }
+        .servCh:hover{
+            h3::first-letter{
+                color: $Color0;
+                transition: 1.5s;
+            }
+        }
+    }
+}
+ @keyframes appear3{
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+ }
+
+@media only screen and (max-width: 768px) {
+    .ps{
+        width: 90% !important;
+    }
+     .services{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(5, 1fr) !important;
+        
+     }
+  }
+ @media only screen and (max-width: 600px) {
+    .ps{
+        width: 90% !important;
+    }
+    .services{
+        width: 90%;
+        margin: auto;
+        display: block !important;
+        .servCh{
+            width: 100% !important;
+            margin: 10px auto !important;
+
+        }
+     }
+    }

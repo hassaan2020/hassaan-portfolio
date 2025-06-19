@@ -1,0 +1,95 @@
+ @import '../Services/Services.scss';
+
+
+.h1W{
+    @include headerStyle();
+}
+.h1W::first-letter{
+    color: $Color1;
+    font-size: 55px;
+    letter-spacing: 1.5px;
+}
+.dasboard{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+    padding-top: 45px;
+    .proj{
+        padding: 35px;
+        border-radius: 10px;
+        height: max-content;
+        box-shadow: 0px 0px 10px #ddd;
+        overflow: hidden;
+        animation: mymove4 1s;
+        animation-delay: 0;
+        transform: translatey(0);
+        img{
+            width: 100%;
+            height: 50%;
+            transition: 0.8s;
+        }
+        
+        h1{
+            margin-bottom: 5px;
+        }
+        p{
+            text-align: left;
+            line-height: 1.2;
+            font-size: 16px;
+            color: #888;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+        span{
+            padding: 5px 10px;
+            margin-right: 10px;
+            font-size: 12px;
+            background-color: $Color3;
+            color: #000;
+            border-radius: 50px;
+        }
+        button{
+            margin-top: 25px;
+            @include colors($Color0, #fff);
+            outline: none;
+            border: none;
+            padding: 7px 20px;
+            border-radius: 5px;
+        }
+    }
+    .proj:hover img{
+            scale: 1.1;
+        }
+}
+@keyframes mymove4 {
+    from {
+        transform: translatey(1000px);
+    }
+    to {
+        transform: translatey(0);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .dasboard{
+        width: 90%;
+        margin: auto;
+        display: block !important;
+        .proj{
+            width: 100%;
+            margin: 10px auto;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dasboard{
+        width: 90%;
+        margin: auto;
+        display: block !important;
+        .proj{
+            width: 100%;
+            margin: 10px auto;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+$Color0 : #7476d6;
+$Color1 : #898AC4;
+$Color2 : #A2AADB;
+$Color3 : #C0C9EE;
+$Color4 : #fff;
+$Color4_ : #FFF2E0;
+$Color5 : #ccc;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+@mixin colors($c1, $c2){                   
+    background-color: $c1;
+    color: $c2;
+}
+@mixin fonts($family, $size){
+    font-family: $family;
+    font-size: $size;
+}
+.bodyNav{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: fit-content;
+ 
+    .nav{
+        @include colors($Color4, $Color5);
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px #ddd;
+        .i{
+            display: block;
+            font-size: 22px;
+            text-align: center;
+            margin: 25px 0;
+            color: $Color5;
+            transition: 0.5s;
+            :hover{
+                color: $Color1;
+                transition: 0.5s;  
+            }
+        }
+        .active{
+            color: $Color0 ;
+        }
+        
+    }
+}
+ @media only screen and (max-width: 768px) {
+    .bodyNav{
+        width: 100%;
+        height: fit-content;
+        bottom: 0;
+        // transform: translateX(50%);
+    }
+    .nav{
+        width: 90% !important;
+        display: inline-block !important;
+        @include colors(#fff, $Color5);
+        border-radius: 10px;
+        box-shadow: 0px 0px 40px 0px #ddd;
+        text-align: center;
+        .i{
+            font-size: 30px !important;
+            margin: 0px 25px !important;
+            display: inline-block !important;
+            :hover{
+                color: $Color0 ;
+            }
+        }
+        .active{
+            color: $Color0 ;
+        }
+        
+    }
+ }
+ @media only screen and (max-width: 600px) {
+     .bodyNav{
+        width: 100%;
+        height: fit-content;
+        bottom: 0;
+        // transform: translateX(50%);
+
+    }
+    .nav{
+        width: 85% !important;
+        display: inline-block !important;
+        @include colors(#fff, $Color5);
+        border-radius: 10px;
+        box-shadow: 0px 0px 40px 0px #ddd;
+        text-align: center;
+        .i{
+            font-size: 25px !important;
+            margin: 0px 10px !important;
+            display: inline-block !important;
+            :hover{
+                color: $Color0;
+            }
+        }
+        .active{
+            color: $Color0 ;
+        }
+    }
+ }

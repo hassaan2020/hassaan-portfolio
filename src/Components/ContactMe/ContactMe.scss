@@ -1,0 +1,86 @@
+ @import '../Services/Services.scss';
+
+.h1C{
+    @include headerStyle();
+}
+.h1C::first-letter{
+    color: $Color1;
+    font-size: 55px;
+    letter-spacing: 1.5px;
+}
+.contact{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+form{
+    width: 100%;
+    animation: mymove3 1s;
+    animation-delay: 0;
+    transform: translateX(0); 
+    .form{
+        width: 100%;
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-bottom: 30px;
+        label, input{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            
+        }
+        input{
+            outline: none;
+            background-color: #ebefff;
+            border: 1px solid #b1b1b1; 
+            border-radius: 5px;
+        }
+    }
+    textarea{
+        width: 100%;
+        outline: none;
+        padding: 10px;
+        background-color: #ebefff;
+        border: 1px solid #b1b1b1; 
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+    button{
+        margin-top: 25px;
+        @include colors($Color0, #fff);
+        outline: none;
+        border: none;
+        padding: 7px 20px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contact{
+        width: 100% !important;
+        padding: 20px !important;
+    }
+    .form{
+        width: 100%;
+        text-align: left;
+        display: block !important;
+        label, input{
+            padding: 10px !important;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contact{
+        width: 100% !important;
+        padding: 20px !important;
+    }
+    .form{
+        width: 100%;
+        text-align: left;
+        display: block !important;
+        label, input{
+            padding: 10px !important;
+        }
+    }
+}
