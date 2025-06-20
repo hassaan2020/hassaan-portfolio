@@ -11,7 +11,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter >
+      <HashRouter >
         <div className="App">
           <Nav />
           <Routes>
@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/contactme" element={<ContactMe />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
