@@ -14,7 +14,7 @@ class ContactMe extends Component{
     handleSubmit = (e) => {
         e.preventDefault();
         const {name, email, phone, msg} = this.state;
-        const phNum = '201558225726';
+        const phNum = '201117394345';
         const whMsg = `${name} %0A${email} %0A${phone} %0A ${msg}`;
         const whURL = `https://api.whatsapp.com/send?phone=${phNum}&text=${whMsg}`;
 
