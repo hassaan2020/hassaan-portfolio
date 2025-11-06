@@ -19,7 +19,7 @@ class Home extends Component{
                         <div className="detailsCh">
                             <h3>Hello, I'm</h3>
                             <h1>Hassaan Nabil</h1>
-                            <h3>I'm Front end developer</h3>
+                            <h3>Data Analyst | Creative Writer & Designer</h3>
                             <br/>
                             <NavLink to="/ContactMe">
                                 <button>Contact Me</button>
