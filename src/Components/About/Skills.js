@@ -14,6 +14,8 @@ class Skills extends Component{
         {name : "C#", level: 70},
         {name : "CCNA", level: 70},
         {name : "MCSA", level: 70},
+        {name : "Python", level: 85},
+        {name : "Data Analysis", level: 80},
     ]
 }
     render(){
