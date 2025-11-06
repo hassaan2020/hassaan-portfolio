@@ -40,10 +40,10 @@ class About extends Component{
                             <img src={myImg2}/>
                         </div>
                         <div className="idDet">
-                            <h2>Front end developer</h2>
-                            <p>Front-End Developer with solid experience in HTML, CSS, JavaScript, and React. Passionate about building responsive and user-friendly interfaces. Skilled in problem-solving, teamwork, and adapting to new technologies.</p>
+                            <h2>Data Analyst | Creative Writer & Designer</h2>
+                            <p>I’m a Data Analyst, Creative Writer, and Web Designer who combines analytical thinking with creative design, I turn data into clear insights, craft clean and engaging websites, and create meaningful content that helps brands stand out with purpose and simplicity.</p>
                             {this.Id()}
-                            <p>A front-end developer is a type of software developer who creates the user-facing side of websites and applications. They are well-versed in web development languages such as HTML, CSS, and JavaScript that are designed for coding dynamic, interactive user experiences.</p>
+                            <p>This field combines data analysis, creative writing, and web design to connect logic with creativity, It focuses on turning data into insights, crafting clear content, and designing user-friendly websites that deliver both meaning and impact, It’s where numbers meet storytelling to create smart, engaging digital experiences.</p>
                         </div>
                     </div>
                 </div>
