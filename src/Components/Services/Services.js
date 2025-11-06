@@ -34,8 +34,8 @@ class Services extends Component{
                 des : "Designing custom Excel sheets for data entry, tracking, calculations, and printing purposes with formulas and formatting."},
             {
                 icon : faPersonChalkboard, 
-                name :"PowerPoint Presentation Design", 
-                des : "Developing clean and impactful PowerPoint presentations for educational or professional use."},
+                name :"Data Analysis Power BI", 
+                des : "A Data Analyst collects, cleans, and analyzes data to discover insights, support decisions, and improve business performance."},
             {
                 icon : faPhotoFilm, 
                 name :"Social Media Graphic Design", 
