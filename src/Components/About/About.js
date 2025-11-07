@@ -43,7 +43,7 @@ class About extends Component{
                             <h2>Data Analyst | Creative Writer & Designer</h2>
                             <p>I’m a Data Analyst, Creative Writer, and Web Designer who combines analytical thinking with creative design, I turn data into clear insights, craft clean and engaging websites, and create meaningful content that helps brands stand out with purpose and simplicity.</p>
                             {this.Id()}
-                            <p>This field combines data analysis, creative writing, and web design to connect logic with creativity, It focuses on turning data into insights, crafting clear content, and designing user-friendly websites that deliver both meaning and impact, It’s where numbers meet storytelling to create smart, engaging digital experiences.</p>
+                            <p>This field combines data analysis, creative writing, and web design to connect logic with creativity, It focuses on turning data into insights, crafting clear content, and designing user-friendly websites that deliver both meaning and impact.</p>
                         </div>
                     </div>
                 </div>
