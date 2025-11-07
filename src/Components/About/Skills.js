@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 class Skills extends Component{
     state = { 
     skills : [
+        {name : "Data Analysis", level: 80},
+        {name : "Python", level: 85},
         {name : "HTML", level: 90},
         {name : "CSS", level: 90},
         {name : "JavaScript", level: 85},
@@ -9,13 +11,14 @@ class Skills extends Component{
         {name : "Bootstrap", level: 85},
         {name : "Tailwind", level: 75},
         {name : "UI/UX Design", level: 80},
+        {name : "MS Office", level: 90},
+        {name : "Photoshop", level: 80},
         {name : "Java", level: 70},
         {name : "C++", level: 65},
         {name : "C#", level: 70},
         {name : "CCNA", level: 70},
         {name : "MCSA", level: 70},
-        {name : "Python", level: 85},
-        {name : "Data Analysis", level: 80},
+        
     ]
 }
     render(){
