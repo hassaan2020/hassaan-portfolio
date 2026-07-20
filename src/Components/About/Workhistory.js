@@ -17,7 +17,7 @@ class Workhistory extends Component{
               exper: [
                     "Managed IT support and operations for 20+ pharmacies and hospitals.",
                     "Installed and maintained CCTV systems, NVR/DVR devices, and healthcare applications. ",
-                    "Provided technical support for hardware, software, networks, POS systems, and printers."
+                    "Provided technical support for hardware, software, networks, POS systems, and printers.",
                     "Configured basic networks (IP, Gateway, DNS), resolved connectivity issues, and supported remote access tools."] },
             { work: "IT SPECIALIST",
               company : "ABC - Garden City",
