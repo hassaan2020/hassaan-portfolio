@@ -44,7 +44,7 @@ class Workhistory extends Component{
                     "Delivered tailored services for students and teachers"] },
 
             { work: "Administrative Assistant",
-              company : "Contact cars ",
+              company : "Contact cars",
               date : "(  09/2022 – 05/2024 )",
               exper: [
                     "Entered and maintained accurate client records in the company database.",
