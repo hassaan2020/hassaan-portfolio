@@ -3,9 +3,25 @@ import { Component } from "react";
 class Workhistory extends Component{
     state = {
         history : [
+            { work: "Data Analyst | IT Specialist ",
+              company : "ABC - Garden City",
+              date : "( 5/2026 – Present )",
+              exper: [
+                    "Data Analysis & Dashboards: Developed dynamic expense analysis reports and interactive dashboards using Power BI and Excel to track operational spending.",
+                    "Cost Optimization: Identified spending patterns and financial trends, delivering actionable insights to support strategic management decisions. ",
+                    "Data Management: Processed, cleaned, and structured raw financial datasets to ensure high accuracy in reporting and visualization.",
+                    "KPIs & Automation: Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."] },
             { work: "IT SPECIALIST",
-              company : "ABC Company for Investment and Construction",
-              date : "( 02/2025 - Current )",
+              company : "Life Capital Group",
+              date : "( 12/2025 – 5/2026 )",
+              exper: [
+                    "Managed IT support and operations for 20+ pharmacies and hospitals.",
+                    "Installed and maintained CCTV systems, NVR/DVR devices, and healthcare applications. ",
+                    "Provided technical support for hardware, software, networks, POS systems, and printers."
+                    "Configured basic networks (IP, Gateway, DNS), resolved connectivity issues, and supported remote access tools."] },
+            { work: "IT SPECIALIST",
+              company : "ABC - Garden City",
+              date : "( 02/2025 – 12/2025 )",
               exper: [
                     "Install, configure and maintain system and PCs.",
                     "Maintain IT infrastructure for Cameras, Printers, PCs, LAN-Network and Routers & Switches. ",
