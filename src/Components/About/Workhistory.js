@@ -7,10 +7,9 @@ class Workhistory extends Component{
               company : "ABC - Garden City",
               date : "( 05/2026 – Present )",
               exper: [
-                    "Developed dynamic expense analysis reports and interactive dashboards using Power BI and Excel to track operational spending.",
-                    "Identified spending patterns and financial trends, delivering actionable insights to support strategic management decisions. ",
-                    "Processed, cleaned, and structured raw financial datasets to ensure high accuracy in reporting and visualization.",
-                    "Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."]},
+                    "Built interactive Power BI and Excel dashboards to track operational spending and dynamic expense patterns.",
+                    "Cleaned raw financial datasets and automated monthly KPI summaries, significantly reducing manual reporting.",
+                    "Analyzed spending trends to deliver actionable insights, directly supporting strategic cost optimization decisions."]},
             { work: "IT SPECIALIST",
               company : "Life Capital Group",
               date : "( 12/2025 – 05/2026 )", 
