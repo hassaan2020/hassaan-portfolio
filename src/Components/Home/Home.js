@@ -3,10 +3,10 @@ import React, { Component } from "react";
 import "./Home.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faGithub, faUpwork, faBehance} from '@fortawesome/free-brands-svg-icons'
-import log from '../imgs/HassaanLogo.png'
+// import log from '../imgs/HassaanLogo.png'
 import log2 from '../imgs/loGhs.png'
 import myImg2 from '../imgs/HaS.png'
-import myImg from '../imgs/Hassaan3.png'
+// import myImg from '../imgs/Hassaan3.png'
 import { NavLink } from "react-router-dom";
 
 class Home extends Component{
@@ -15,7 +15,7 @@ class Home extends Component{
             <div className="page">
                 <div className="container">
                     <div className="logo">
-                        <img  src={log2} />
+                        <img  src={log2} alt=""/>
                     </div>
                     <div className="detailsP">
                         <div className="detailsCh">
@@ -43,7 +43,7 @@ class Home extends Component{
                             </div>
                         </div>
                         <div className="my-Image1">
-                            <img  src={myImg2} />
+                            <img  src={myImg2} alt=""/>
                         </div>
                     </div>
                     
