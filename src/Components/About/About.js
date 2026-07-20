@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { useEffect } from "react";
 import './About.scss';
-import myImg2 from '../imgs/Hassaan2.jpg'
+import myImg2 from '../imgs/hasAb.png'
 import Skills from "./Skills";
 import Workhistory from "./Workhistory";
 class About extends Component{
