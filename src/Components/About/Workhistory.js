@@ -2,6 +2,13 @@ import { Component } from "react";
 class Workhistory extends Component{
     state = {
         history : [
+            { work: "Data Analyst | IT Specialist",
+              company : "ABC - Garden City",
+              date : "( 05/2026 – Present )",
+              exper: [
+                    "Built interactive Power BI and Excel dashboards to track operational spending and dynamic expense patterns.",
+                    "Cleaned raw financial datasets and automated monthly KPI summaries, significantly reducing manual reporting.",
+                    "Analyzed spending trends to deliver actionable insights, directly supporting strategic cost optimization decisions."]},
               { work: "IT SPECIALIST",
               company : "Life Capital Group",
               date : "( 12/2025 – 05/2026 )", 
