@@ -41,9 +41,9 @@ class About extends Component{
                         </div>
                         <div className="idDet">
                             <h2>Data Analyst | IT Specialist</h2>
-                            <p>I’m a Data Analyst, Creative Writer, and Web Designer who combines analytical thinking with creative design, I turn data into clear insights, craft clean and engaging websites, and create meaningful content that helps brands stand out with purpose and simplicity.</p>
+                            <p>Versatile Data Analyst and IT Specialist with hands-on experience in Excel, Power  BI, and operational reporting. Proven track record in data cleaning, dashboard development, and KPI tracking to transform raw data into actionable insights.</p>
                             {this.Id()}
-                            <p>This field combines data analysis, creative writing, and web design to connect logic with creativity, It focuses on turning data into insights, crafting clear content, and designing user-friendly websites that deliver both meaning and impact.</p>
+                            <p>Combines a strong background in IT infrastructure and business operations to  deliver data-driven solutions and optimize technical workflows. </p>
                         </div>
                     </div>
                 </div>
