@@ -1,5 +1,4 @@
 import { Component } from "react";
-
 class Workhistory extends Component{
     state = {
         history : [
@@ -69,8 +68,7 @@ class Workhistory extends Component{
                             return(
                                 <li>- {ex}</li> 
                             );
-                        })}
-                                                   
+                        })}           
                     </ul>
                 </div>
             );
@@ -82,6 +80,4 @@ class Workhistory extends Component{
         );
     }
 }
-
-
 export default Workhistory;
