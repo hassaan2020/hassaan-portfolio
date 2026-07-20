@@ -13,7 +13,7 @@ class Workhistory extends Component{
                     "KPIs & Automation: Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."] },
             { work: "IT SPECIALIST",
               company : "Life Capital Group",
-              date : "( 12/2025 – 5/2026 )",
+              date : "( 12/2025 – 5/2026 )", 
               exper: [
                     "Managed IT support and operations for 20+ pharmacies and hospitals.",
                     "Installed and maintained CCTV systems, NVR/DVR devices, and healthcare applications. ",
