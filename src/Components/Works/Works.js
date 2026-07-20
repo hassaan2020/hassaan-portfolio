@@ -48,7 +48,7 @@ class Works extends Component{
         const myProjects = projects.map(pro => {
             return(
                 <div className="proj">
-                    <img src={pro.img}/>
+                    <img src={pro.img} alt=""/>
                     <h1>{pro.name}</h1>
                     <p>{pro.descr}</p>
                     {pro.lang.map(ln => {
