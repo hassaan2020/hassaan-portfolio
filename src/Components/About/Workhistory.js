@@ -48,7 +48,7 @@ class Workhistory extends Component{
               date : "(  09/2022 – 05/2024 )",
               exper: [
                     "Entered and maintained accurate client records in the company database.",
-                    "Monitored employee attendance and prepared daily and weekly reports. ",
+                    "Monitored employee attendance and prepared daily and weekly reports.",
                     "Organized and maintained office files, documents, and records.",
                     "Coordinated internal communication between departments.",
                     "Assisted in scheduling meetings and managing calendars.",
