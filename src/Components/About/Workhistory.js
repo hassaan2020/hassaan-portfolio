@@ -3,9 +3,9 @@ import { Component } from "react";
 class Workhistory extends Component{
     state = {
         history : [
-            { work: "Data Analyst | IT Specialist ",
+            { work: "Data Analyst | IT Specialist",
               company : "ABC - Garden City",
-              date : "( 5/2026 – Present )",
+              date : "( 05/2026 – Present )",
               exper: [
                     "Data Analysis & Dashboards: Developed dynamic expense analysis reports and interactive dashboards using Power BI and Excel to track operational spending.",
                     "Cost Optimization: Identified spending patterns and financial trends, delivering actionable insights to support strategic management decisions. ",
@@ -13,7 +13,7 @@ class Workhistory extends Component{
                     "KPIs & Automation: Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."] },
             { work: "IT SPECIALIST",
               company : "Life Capital Group",
-              date : "( 12/2025 – 5/2026 )", 
+              date : "( 12/2025 – 05/2026 )", 
               exper: [
                     "Managed IT support and operations for 20+ pharmacies and hospitals.",
                     "Installed and maintained CCTV systems, NVR/DVR devices, and healthcare applications. ",
