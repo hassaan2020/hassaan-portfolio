@@ -1,5 +1,5 @@
-import react, { Component } from "react";
-import { Link, NavLink } from 'react-router-dom';
+import { Component } from "react";
+import { NavLink } from 'react-router-dom';
 import "./Nav.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHouse, faUser, faTrophy, faHandshake, faEnvelope} from '@fortawesome/free-solid-svg-icons';
