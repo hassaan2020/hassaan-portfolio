@@ -36,7 +36,7 @@ class Workhistory extends Component{
                     "Responsible for new hardware and software maintenance. "] },
 
             { work: "Library Owner & Content Designer ",
-              company : "Alebdaa Library ",
+              company : "Alebdaa Library",
               date : "(  10/2022 – 02/2025 )",
               exper: [
                     "Designed study notes, worksheets, and customized documents using Word and Excel.  ",
