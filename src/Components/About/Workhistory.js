@@ -7,10 +7,10 @@ class Workhistory extends Component{
               company : "ABC - Garden City",
               date : "( 05/2026 – Present )",
               exper: [
-                    "Data Analysis & Dashboards: Developed dynamic expense analysis reports and interactive dashboards using Power BI and Excel to track operational spending.",
-                    "Cost Optimization: Identified spending patterns and financial trends, delivering actionable insights to support strategic management decisions. ",
-                    "Data Management: Processed, cleaned, and structured raw financial datasets to ensure high accuracy in reporting and visualization.",
-                    "KPIs & Automation: Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."]},
+                    "Developed dynamic expense analysis reports and interactive dashboards using Power BI and Excel to track operational spending.",
+                    "Identified spending patterns and financial trends, delivering actionable insights to support strategic management decisions. ",
+                    "Processed, cleaned, and structured raw financial datasets to ensure high accuracy in reporting and visualization.",
+                    "Designed key performance indicator (KPI) reports and automated monthly expense summaries, reducing manual reporting effort."]},
             { work: "IT SPECIALIST",
               company : "Life Capital Group",
               date : "( 12/2025 – 05/2026 )", 
@@ -44,13 +44,9 @@ class Workhistory extends Component{
               company : "Contact cars",
               date : "(  09/2022 – 05/2024 )",
               exper: [
-                    "Entered and maintained accurate client records in the company database.",
-                    "Monitored employee attendance and prepared daily and weekly reports.",
-                    "Organized and maintained office files, documents and records.",
-                    "Coordinated internal communication between departments.",
-                    "Assisted in scheduling meetings and managing calendars.",
-                    "Supported daily administrative operations to ensure smooth workflow.",
-                    "Handled basic office tasks such as data entry, reporting and documentation."]},
+                    "Maintained accurate client records, database integrity, and organized office documentation.",
+                    "Monitored employee attendance and generated daily/weekly administrative workflow reports.",
+                    "Facilitated cross-departmental communication and managed meeting schedules and calendars."]},
             ]
     }
     render(){
