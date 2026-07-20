@@ -25,7 +25,6 @@ class Workhistory extends Component{
                     "Install, configure and maintain system and PCs.",
                     "Maintain IT infrastructure for Cameras, Printers, PCs, LAN-Network and Routers & Switches. ",
                     "Responsible for new hardware and software maintenance."]},
-
             { work: "IT SPECIALIST",
               company : "Heraa Company for Investment and Construction",
               date : " (06/2024 - 01/2025) ",
@@ -33,7 +32,6 @@ class Workhistory extends Component{
                     "Install, configure and maintain system and PCs. ",
                     "Maintain IT infrastructure for Cameras, Printers, PCs, LAN-Network and Routers & Switches.",
                     "Responsible for new hardware and software maintenance. "]},
-
             { work: "Library Owner & Content Designer ",
               company : "Alebdaa Library",
               date : "(  10/2022 – 02/2025 )",
@@ -41,7 +39,6 @@ class Workhistory extends Component{
                     "Designed study notes, worksheets, and customized documents using Word and Excel.",
                     "Created social media designs using Photoshop. ",
                     "Delivered tailored services for students and teachers"]},
-
             { work: "Administrative Assistant",
               company : "Contact cars",
               date : "(  09/2022 – 05/2024 )",
