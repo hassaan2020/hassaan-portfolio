@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import "./Home.scss"
+import "./Home.scss" 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faGithub, faUpwork, faBehance} from '@fortawesome/free-brands-svg-icons'
 // import log from '../imgs/HassaanLogo.png'
