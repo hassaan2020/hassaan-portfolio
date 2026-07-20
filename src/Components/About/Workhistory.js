@@ -45,11 +45,11 @@ class Workhistory extends Component{
               exper: [
                     "Entered and maintained accurate client records in the company database.",
                     "Monitored employee attendance and prepared daily and weekly reports.",
-                    "Organized and maintained office files, documents, and records.",
+                    "Organized and maintained office files, documents and records.",
                     "Coordinated internal communication between departments.",
                     "Assisted in scheduling meetings and managing calendars.",
                     "Supported daily administrative operations to ensure smooth workflow.",
-                    "Handled basic office tasks such as data entry, reporting, and documentation."]},
+                    "Handled basic office tasks such as data entry, reporting and documentation."]},
             ]
     }
     render(){
