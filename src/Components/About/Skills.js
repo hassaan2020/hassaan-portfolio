@@ -4,7 +4,7 @@ class Skills extends Component{
     skills : [
         {name : "Data Analysis", level: 90}, 
         {name : "SQL", level: 90},
-        {name : "Data Warehouse ", level: 80},
+        {name : "Data Warehouse", level: 80},
         {name : "Python", level: 85},
         {name : "HTML", level: 90},
         {name : "CSS", level: 90},
