@@ -21,7 +21,7 @@ class Home extends Component{
                         <div className="detailsCh">
                             <h3>Hello, I'm</h3>
                             <h1>Hassaan Nabil</h1>
-                            <h3>Data Analyst | Creative Writer & Designer</h3>
+                            <h3>Data Analyst | IT Specialist</h3>
                             <br/>
                             <NavLink to="/ContactMe">
                                 <button>Contact Me</button>
