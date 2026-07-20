@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import './About.scss';
 import myImg2 from '../imgs/Hassaan2.jpg'
 import Skills from "./Skills";
@@ -37,7 +37,7 @@ class About extends Component{
                     <h1 className="h1A">About</h1>
                     <div className="aboutMe">
                         <div className="imgAbout">
-                            <img src={myImg2}/>
+                            <img src={myImg2} alt=""/>
                         </div>
                         <div className="idDet">
                             <h2>Data Analyst | IT Specialist</h2>
