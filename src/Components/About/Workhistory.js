@@ -1,7 +1,6 @@
 import { Component } from "react";
 class Workhistory extends Component{
     state = {
-        
         history : [
             { work: "Data Analyst | IT Specialist",
               company : "ABC - Garden City",
