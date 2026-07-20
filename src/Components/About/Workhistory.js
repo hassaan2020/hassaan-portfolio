@@ -43,14 +43,17 @@ class Workhistory extends Component{
                     "Created social media designs using Photoshop. ",
                     "Delivered tailored services for students and teachers"] },
 
-            { work: "IT HELP DESK",
+            { work: "Administrative Assistant",
               company : "Contact cars ",
               date : "(  09/2022 – 05/2024 )",
               exper: [
-                    "Respond to IT support tickets and inquiries from employees, diagnosing technical issues in a timely manner.",
-                    "Provide remote assistance and troubleshooting for customer problems. ",
-                    "Install, configure, and maintain computer systems, software, and peripheral devices.",
-                    "Collaborate with other IT team members to escalate and resolve complex issues."] },
+                    "Entered and maintained accurate client records in the company database.",
+                    "Monitored employee attendance and prepared daily and weekly reports. ",
+                    "Organized and maintained office files, documents, and records.",
+                    "Coordinated internal communication between departments.",
+                    "Assisted in scheduling meetings and managing calendars.",
+                    "Supported daily administrative operations to ensure smooth workflow.",
+                    "Handled basic office tasks such as data entry, reporting, and documentation."] },
             ]
     }
     render(){
