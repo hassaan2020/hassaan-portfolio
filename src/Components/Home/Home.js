@@ -4,6 +4,8 @@ import "./Home.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faGithub, faUpwork, faBehance} from '@fortawesome/free-brands-svg-icons'
 import log from '../imgs/HassaanLogo.png'
+import log2 from '../imgs/loghs.png'
+import myImg2 from '../imgs/HAS.png'
 import myImg from '../imgs/Hassaan3.png'
 import { NavLink } from "react-router-dom";
 
@@ -13,7 +15,7 @@ class Home extends Component{
             <div className="page">
                 <div className="container">
                     <div className="logo">
-                        <img  src={log} />
+                        <img  src={log2} />
                     </div>
                     <div className="detailsP">
                         <div className="detailsCh">
@@ -41,7 +43,7 @@ class Home extends Component{
                             </div>
                         </div>
                         <div className="my-Image1">
-                            <img  src={myImg} />
+                            <img  src={myImg2} />
                         </div>
                     </div>
                     
