@@ -38,7 +38,13 @@ class Workhistory extends Component{
                     "Maintained accurate client records, database integrity, and organized office documentation.",
                     "Monitored employee attendance and generated daily/weekly administrative workflow reports.",
                     "Facilitated cross-departmental communication and managed meeting schedules and calendars."]},
-            
+            { work: "Library Owner & Content Designer ",
+              company : "Alebdaa Library",
+              date : "(  10/2022 – 02/2025 )",
+              exper: [
+                    "Designed study notes, worksheets, and customized documents using Word and Excel.",
+                    "Created social media designs using Photoshop. ",
+                    "Delivered tailored services for students and teachers"]},
             ]
     }
     render(){
