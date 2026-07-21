@@ -54,7 +54,7 @@ class Workhistory extends Component{
             return(
                 <div className="company">
                     <h2>{hist.work}</h2>
-                    <h4>{hist.company} " - " {hist.date} </h4>
+                    <h4>{hist.company}  -  {hist.date} </h4>
                     <ul>
                         {hist.exper.map(ex => {
                             return(
