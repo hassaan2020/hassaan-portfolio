@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedinIn, faGithub, faUpwork, faBehance} from '@fortawesome/free-brands-svg-icons'
 // import log from '../imgs/HassaanLogo.png'
 import log2 from '../imgs/loGhs.png'
-import myImg2 from '../imgs/hassAn.png'
+import myImg2 from '../imgs/hHh.png'
 // import myImg from '../imgs/Hassaan3.png'
 import { NavLink } from "react-router-dom";
 
