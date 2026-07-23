@@ -7,10 +7,25 @@ import p3 from '../imgs/p3.png'
 import p4 from '../imgs/p4.png'
 import p5 from '../imgs/p5.png'
 import p6 from '../imgs/p6.png'
+import p7 from '../imgs/p7.png'
+import p8 from '../imgs/p8.png'
+import p9 from '../imgs/p9.png'
+import p10 from '../imgs/p10.png'
+import p11 from '../imgs/p11.png'
+import p12 from '../imgs/p12.png'
+import p13 from '../imgs/p13.png'
+import p14 from '../imgs/p14.png'
+import p15 from '../imgs/p15.png'
 
 class Works extends Component{
     state = {
         projects : [
+            {name:"Chinook Dashboard",
+            descr: "A analytics dashboard visualizing digital media sales, genre trends, customer demographics, and regional performance.", 
+            lang: ["Power BI", "SQL", "Data Warehouse"], 
+            link: "https://github.com/hassaan2020/Chinook-DDashboard/blob/main/Chinook%20Dashboard.pdf", 
+            img: p15 },
+         
             {name:"Simple Portfolio 1",
             descr: "A basic personal website showcasing my skills as a frontend developer. ", 
             lang: ["React", "JavaScript", "SASS"], 
