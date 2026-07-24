@@ -14,7 +14,7 @@ import p6 from '../imgs/p6.png'
 // import p11 from '../imgs/p11.png'
 // import p12 from '../imgs/p12.png'
 // import p13 from '../imgs/p13.png'
-// import p14 from '../imgs/p14.png'
+import p14 from '../imgs/pp14.png'
 import p15 from '../imgs/pp15.png'
 
 class Works extends Component{
@@ -22,9 +22,19 @@ class Works extends Component{
         projects : [
             {name:"Chinook Dashboard",
             descr: "A analytics dashboard visualizing digital media sales, genre trends, customer demographics, and regional performance.", 
-            lang: ["Power BI", "SQL", "Data Warehouse"], 
+            lang: ["Power BI", "DAX", "SQL", "Data Warehouse"], 
             link: "https://github.com/hassaan2020/Chinook-DDashboard/blob/main/Chinook%20Dashboard.pdf", 
             img: p15 },
+            {name:"Premier League 2020-2021 Dashboard",
+            descr: "A sports analytics dashboard evaluating player statistics, team standings, match outcomes, and performance metrics.", 
+            lang: ["Power BI", "DAX"], 
+            link: "https://github.com/hassaan2020/Premier-League-Dashboard/blob/main/Premier%20League20_21.pdf", 
+            img: p14 },
+            {name:"World Wide Importers (WWI) Dashboard",
+            descr: "A comprehensive business dashboard analyzing wholesale supply chain efficiency, inventory flow, and revenue distribution.", 
+            lang: ["Power BI", "DAX"], 
+            link: "https://github.com/hassaan2020/WWI-Dashboard/blob/main/WWI.pdf", 
+            img: p14 },
          
             {name:"Simple Portfolio 1",
             descr: "A basic personal website showcasing my skills as a frontend developer. ", 
