@@ -74,8 +74,8 @@ class Works extends Component{
             return(
                 <div className="proj">
                     <img src={pro.img} alt=""/>
-                    <h1>{pro.name}</h1>
-                    <p>{pro.descr}</p>
+                    <h1 title={pro.name}>{pro.name}</h1>
+                    <p title={pro.descr}>{pro.descr}</p>
                     {pro.lang.map(ln => {
                         return(
                             <span>{ln}</span>
