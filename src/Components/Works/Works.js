@@ -15,7 +15,7 @@ import p6 from '../imgs/p6.png'
 // import p12 from '../imgs/p12.png'
 // import p13 from '../imgs/p13.png'
 // import p14 from '../imgs/p14.png'
-import p15 from '../imgs/p15.png'
+import p15 from '../imgs/pp15.png'
 
 class Works extends Component{
     state = {
