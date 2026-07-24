@@ -13,7 +13,7 @@ import p6 from '../imgs/p6.png'
 // import p10 from '../imgs/p10.png'
 // import p11 from '../imgs/p11.png'
 // import p12 from '../imgs/p12.png'
-// import p13 from '../imgs/p13.png'
+import p13 from '../imgs/pp13.png'
 import p14 from '../imgs/pp14.png'
 import p15 from '../imgs/pp15.png'
 
@@ -34,7 +34,7 @@ class Works extends Component{
             descr: "A comprehensive business dashboard analyzing wholesale supply chain efficiency, inventory flow, and revenue distribution.", 
             lang: ["Power BI", "DAX"], 
             link: "https://github.com/hassaan2020/WWI-Dashboard/blob/main/WWI.pdf", 
-            img: p14 },
+            img: p13 },
          
             {name:"Simple Portfolio 1",
             descr: "A basic personal website showcasing my skills as a frontend developer. ", 
