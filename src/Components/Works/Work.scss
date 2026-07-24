@@ -33,6 +33,11 @@
         
         h1{
             margin-bottom: 5px;
+            display: -webkit-box;
+            -webkit-line-clamp: 1; 
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         p{
             text-align: left;
@@ -41,6 +46,11 @@
             color: #888;
             padding: 5px;
             margin-bottom: 15px;
+            display: -webkit-box;
+           -webkit-line-clamp: 2;
+           -webkit-box-orient: vertical;
+           overflow: hidden;
+           text-overflow: ellipsis;
         }
         span{
             padding: 5px 10px;
